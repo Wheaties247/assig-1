@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p class="thePees" ></p>
+<p class="thePees" ></p>
+<p class="thePees" ></p>
+ <button id="theButton" ></button>
+ <script type="text/javascript">
+ 	var button=document.querySelector("#theButton");
+ 	button.addEventListener('click', function(){
+ 		var	pTags = document.querySelector(".thePees");
+ 		pTags[1].innerHTML="the change";
+ 		pTags[1].style= "background-color:blue";
+ 	})
+ </script>
+</body>
+</html>
